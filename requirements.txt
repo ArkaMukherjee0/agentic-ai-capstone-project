@@ -1,0 +1,10 @@
+langchain-groq>=0.2.0
+langgraph>=0.2.0
+langchain-core>=0.3.0
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+streamlit>=1.35.0
+python-dotenv>=1.0.0
+pypdf>=4.0.0
+ragas>=0.1.0
+datasets>=2.0.0

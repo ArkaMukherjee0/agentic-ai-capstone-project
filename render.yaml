@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: research-paper-qa
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run capstone_streamlit.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: PYTHONIOENCODING
+        value: utf-8
