@@ -167,12 +167,7 @@ Run `day13_capstone.ipynb` Part 6 to populate:
 
 ## Deployment on Render
 
-1. Push project to a public GitHub repo (include `papers/` directory)
-2. Go to [render.com](https://render.com) → New → Web Service → Connect repo
-3. Render auto-detects `render.yaml`
-4. Add environment variable: `GROQ_API_KEY = <your key>`
-5. Deploy — the app is live at the provided Render URL
-
+The project is deployed with Render at this public URL: https://agentic-ai-capstone-project.onrender.com
 ---
 
 ## Unique Points
